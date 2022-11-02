@@ -5,7 +5,7 @@ function App() {
   const [value, setValue] = useState("");
   const [back, setBack] = useState("#FFFFFF");
   const [fore, setFore] = useState("#000000");
-  const [size, setSize] = useState(25);
+  const [size, setSize] = useState(256);
   return (
     <div className="App">
       <div>
